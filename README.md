@@ -2,11 +2,11 @@
 
 This is the guts of https://svelte.dev/repl, extracted into its own package so that it can be used elsewhere.
 
-## TODO
+## Docker
 
-* Documentation
-* Tests
-* Themeability
+```
+docker run --rm -p 5173:3000 --name svelte-repl -d svelte-repl
+```
 
 ## License
 
